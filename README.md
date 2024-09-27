@@ -31,3 +31,9 @@ la ligne suivante : export PATH=/usr/local/go/bin:$PATH
 Vérification de l'installation :
 Ouvrez un nouveau terminal (ou invite de commande) et tapez "go version". Si tout est
 installé correctement, vous devriez voir la version de Go s'affiche
+
+Credit
+Guylan
+Anderson
+Maxime
+Lucas 
