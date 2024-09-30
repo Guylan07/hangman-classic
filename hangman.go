@@ -4,6 +4,6 @@ import(
 	"bufio"
 	"fmt"
 )
-func main (
-	//liste de mot possible
-)
+func main () {
+	
+}
