@@ -3,13 +3,23 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"math/rand"
 	"os"
 	"strings"
 )
 
 func main() {
 	// Liste de mots possibles (ici, un seul mot choisi)
-	mot := "golang"
+	mots := []string{"banc", "bureau", "cabinet", "carreau", "chaise", "classe", "cle", "coin", "couloir", "dossier", "eau", "ecole",
+		"ecriture", "entree", "escalier", "etagere", "etude", "etude", "exterieur", "fenetre", "interieur", "lavabo", "lecture", "lit", "marche",
+		"matelas", "maternelle", "meuble", "mousse", "mur", "porte", "porte", "portemanteau", "poubelle", "radiateur", "rampe", "recreation",
+		"rentree", "toilette", "bataille", "ancre", "amande", "jeune", "ville", "jumelle", "cheveux", "album", "femme", "homme", "question",
+		"auberge", "visage", "herbe", "courrier", "plat", "drapeau", "turbulence", "transpirer", "plage", "moustique", "faux", "vrai", "acajou",
+		"alephs", "azimut", "basson", "burine", "caiman", "cercle", "coccyx", "cornee", "faucon", "gospel", "guenon", "hormis", "menthe", "mulard",
+		"notais", "nouais", "pagine", "pontil", "sabord", "seisme", "whisky", "yankee", "zipper"}
+
+	mot := mots[rand.Intn(len(mots))]
+
 	tentatives := 6
 	lettresDevinees := make(map[rune]bool)
 

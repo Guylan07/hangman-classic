@@ -7,3 +7,5 @@ import(
 func main () {
 	
 }
+
+//hahahahah prank du président
