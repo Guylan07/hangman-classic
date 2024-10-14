@@ -1,5 +1,5 @@
 package main
-
+//salut
 import (
 	"bufio"
 	"fmt"
